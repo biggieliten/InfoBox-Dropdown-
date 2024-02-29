@@ -9,8 +9,16 @@ const DropDownComp = () => {
 
   const handleChange = (event) => {
     const selected = event.target.selectedIndex - 1;
-    const selectedPerson = data[selected];
-    setSelectedPerson(selectedPerson);
+    const selectedP = data[selected];
+    console.log(
+      "Selected:",
+      selectedPerson.firstname,
+      "| index:",
+      selected,
+      " |SelectedPerson: ",
+      selectedPerson
+    );
+    setSelectedPerson(selectedP);
   };
 
   return (

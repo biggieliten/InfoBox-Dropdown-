@@ -1,15 +1,17 @@
-import { useState } from "react";
 import DropDownComp from "./components/DropdownComp/DropDownComp";
-import InfoBox from "./components/InfoBoxComp/InfoBoxComp";
-import peopleData from "../src/components/DropdownComp/peopleData.json";
+import DropDown from "./components/RepetitionOfComponents/DropDown/DropDown";
 
 import "./App.css";
 
 function App() {
   return (
-    <section class="app">
-      <DropDownComp />
+    <section>
+      <DropDown />
     </section>
+
+    // <section className="app">
+    //   <DropDownComp />
+    // </section>
   );
 }
 

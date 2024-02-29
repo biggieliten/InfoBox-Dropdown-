@@ -1,0 +1,30 @@
+[
+  {
+    "brand": "Ford",
+    "model": "Focus ST",
+    "year": "2010",
+    "color": "Blue",
+    "horesepower": "350hp"
+  },
+  {
+    "brand": "BMW",
+    "model": "330ci",
+    "year": "2002",
+    "color": "Black",
+    "horesepower": "220hp"
+  },
+  {
+    "brand": "Audi",
+    "model": "S4",
+    "year": "2006",
+    "color": "Yellow",
+    "horesepower": "250hp"
+  },
+  {
+    "brand": "Renault",
+    "model": "Clio",
+    "year": "2000",
+    "color": "Grey",
+    "horesepower": "75hp"
+  }
+]

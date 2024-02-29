@@ -2,14 +2,14 @@ import "../InfoBoxComp/InfoBoxComp.css";
 
 const InfoBox = ({ person }) => {
   return (
-    <div class="InfoBox">
-      <h1>name: {person.firstname}</h1>
-      <p>lastName={person.lastname}</p>
-      <p>pantcolor={person.pant_color}</p>
-      <p>favFood={person.favorite_food}</p>
-      <p>favTool={person.favorite_tool}</p>
-      <p>pet={person.pet}</p>
-      <p>hobby={person.hobby}</p>
+    <div className="InfoBox">
+      <h1>Name: {person.firstname}</h1>
+      <p>LastName: {person.lastname}</p>
+      <p>Pantcolor: {person.pant_color}</p>
+      <p>FavFood: {person.favorite_food}</p>
+      <p>FavTool: {person.favorite_tool}</p>
+      <p>Pet: {person.pet}</p>
+      <p>Hobby: {person.hobby}</p>
     </div>
   );
 };
